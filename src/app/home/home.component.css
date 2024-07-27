@@ -62,3 +62,8 @@ html {
 .partners-logos img:hover {
   transform: scale(1.1);
 }
+@media (max-width: 768px) {
+  .hero{
+    background-image: url("../../assets/homebg2.jpg");
+  }
+}
