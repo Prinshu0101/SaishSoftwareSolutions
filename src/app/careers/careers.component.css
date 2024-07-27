@@ -1,0 +1,46 @@
+.career {
+  margin: auto;
+  padding: 50px;
+  max-width: 500px;
+  text-align: center;
+}
+
+.career-form {
+  width: 100%;
+  text-align: left;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f8f9fa;
+  color: #333;
+}
+.or-divider{
+  font-size: 12px;
+  color: #8c8484;
+  text-align: center;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 8px #bbb;
+}
+button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #e9ae12;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+button:hover {
+  box-shadow: 1px 5px 5px rgba(186, 143, 2, 0.507);
+}

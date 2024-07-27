@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contact</title>
+</head>
+<body>
+  <section class="contact">
+    <div class="container">
+      <h2><b>Contact Us</b></h2>
+      <div class="contact-wrapper">
+        <div class="contact-info animate__animated animate__pulse">
+          <h3>Reach us</h3>
+          <p><mat-icon> call</mat-icon>+91 8369972271</p>
+          <p><mat-icon> email</mat-icon>{{email}}</p>
+          <p><mat-icon> business</mat-icon>Mumbai, Maharastra, India</p>
+        </div>
+        <div class="contact-form animate__animated animate__fadeInRight">
+          <h3>Get in touch</h3>
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="7e29e32d-4389-4048-95e4-d15317816d29">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <textarea name="message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120562.3142320723!2d72.91888695363413!3d19.21387345911769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8fcfe76fd59%3A0xcf367d85f7c50283!2sThane%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1721325691738!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+.about {
+
+  min-width: 350px;
+  font-family: "Trirong", serif;
+  margin: auto;
+  padding: 25px;
+  text-align: center;
+  margin-bottom: 415px;
+}
+.aboutus{
+  padding: 25px;
+}
+.aboutcontainer {
+  margin: auto;
+  width: 80%;
+}
+.about h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
