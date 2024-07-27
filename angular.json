@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "docs/server",
+            "outputPath": "dist/SaishSoftwareSolutions",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
