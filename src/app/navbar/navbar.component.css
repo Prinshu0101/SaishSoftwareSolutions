@@ -1,5 +1,5 @@
-mat-toolbar {
-    min-width: 100px;
+.navbar {
+    min-width: none;
     background-color: rgb(255, 129, 27);    
 }
 .company-name {
@@ -37,16 +37,17 @@ span {
 }
 
 .spacer {
-    text-align: end;
-    flex: 1 1 auto;
-}
+    display: flex;
 
+    text-align: end;
+}
 .spacer a {
     font-size: .8em;
     color: white;
 }
 
 body{
+    min-width: none;
     margin: 0;
     padding: 0;
 }
