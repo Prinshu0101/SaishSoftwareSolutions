@@ -1,7 +1,8 @@
-.navbar {
-    min-width: none;
-    background-color: rgb(255, 129, 27);    
+mat-toolbar {
+    background-color: rgb(255, 129, 27);   
+    margin-bottom: 0; 
 }
+
 .company-name {
     display: flex;
     line-height: 1;
@@ -37,17 +38,16 @@ span {
 }
 
 .spacer {
-    display: flex;
-
     text-align: end;
+    flex: 1 1 auto;
 }
+
 .spacer a {
     font-size: .8em;
     color: white;
 }
 
-body{
-    min-width: none;
+body, html {
     margin: 0;
     padding: 0;
 }
