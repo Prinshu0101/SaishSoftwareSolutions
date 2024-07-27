@@ -1,5 +1,6 @@
 mat-toolbar {
-    background-color: rgb(255, 129, 27);    
+    background-color: rgb(255, 129, 27);   
+    margin-bottom: 0; 
 }
 
 .company-name {
@@ -49,12 +50,4 @@ span {
 body, html {
     margin: 0;
     padding: 0;
-}
-
-.toggle-button {
-    display: none;
-    font-size: 24px;
-    cursor: pointer;
-    color: white;
-    padding: 10px;
 }

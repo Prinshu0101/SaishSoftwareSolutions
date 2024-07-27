@@ -7,7 +7,7 @@ import { ContactComponent } from './contact/contact.component';
 import { CareersComponent } from './careers/careers.component';
 
 export const routes: Routes = [
-    {path: '', redirectTo: '/home', pathMatch: 'full' }, // Default route}
+    {path: '', redirectTo: '/home/', pathMatch: 'full' }, // Default route}
     {path:"home", component: HomeComponent, data: { animation: 'HomePage' }},
     {path:"services", component: ServicesComponent},
     {path:'about', component: AboutComponent},
