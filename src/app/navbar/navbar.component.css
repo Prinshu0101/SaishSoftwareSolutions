@@ -1,8 +1,8 @@
 mat-toolbar {
-    background-color: rgb(255, 129, 27);   
-    margin-bottom: 0; 
+    display: flexbox;
+    flex-wrap: wrap;
+    background-color: rgb(255, 129, 27);
 }
-
 .company-name {
     display: flex;
     line-height: 1;
@@ -10,7 +10,6 @@ mat-toolbar {
     align-items: end;
     margin-right: auto;
 }
-
 mat-icon {
     color: white;
     padding-top: 10px;
@@ -50,4 +49,11 @@ span {
 body, html {
     margin: 0;
     padding: 0;
+}
+
+@media (max-width: 850px) {
+header{
+    background-color: rgb(255, 129, 27);
+    padding-bottom: 50px;
+}   
 }
