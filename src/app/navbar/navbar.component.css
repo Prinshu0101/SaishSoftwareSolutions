@@ -1,8 +1,7 @@
 mat-toolbar {
-    background-color: rgb(255, 129, 27);   
-    margin-bottom: 0; 
+    min-width: 100px;
+    background-color: rgb(255, 129, 27);    
 }
-
 .company-name {
     display: flex;
     line-height: 1;
@@ -47,7 +46,7 @@ span {
     color: white;
 }
 
-body, html {
+body{
     margin: 0;
     padding: 0;
 }
