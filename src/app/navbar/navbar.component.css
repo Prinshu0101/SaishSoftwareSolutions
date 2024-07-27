@@ -1,5 +1,5 @@
 mat-toolbar {
-    display: flexbox;
+    display: flex;
     flex-wrap: wrap;
     background-color: rgb(255, 129, 27);
 }
@@ -55,5 +55,12 @@ body, html {
 header{
     background-color: rgb(255, 129, 27);
     padding-bottom: 50px;
-}   
+}  
+
+.spacer {
+    font-size: 0.7em;
+} 
+.menu{
+    margin: auto;
+}
 }
