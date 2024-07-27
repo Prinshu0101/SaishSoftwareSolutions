@@ -6,6 +6,7 @@
 }
 .container {
   max-width: 800px;
+  min-width: none;
   margin: 0 auto;
 }
 .contact-info {
@@ -94,11 +95,21 @@ mat-icon {
   height: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .container {
-    padding: 20px;
+    margin: auto;
+    
+    width: 250px;
+    padding: 20px 0;
+  }
+  .contact-info{
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .contact-wrapper {
     grid-template-columns: 1fr;
+  }
+  form{
+    width: 250px;
   }
 }
