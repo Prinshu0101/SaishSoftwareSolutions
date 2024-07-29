@@ -1,5 +1,4 @@
 .contact {
-  
   font-family: "Trirong", serif;
   padding: 50px;
   text-align: center;
@@ -98,18 +97,24 @@ mat-icon {
 @media (max-width: 768px) {
   .container {
     margin: auto;
-    
+
     width: 250px;
     padding: 20px 0;
   }
-  .contact-info{
+  mat-icon {
+    margin-right: 0px;
+  }
+  .contact-info {
     padding-left: 10px;
     padding-right: 10px;
+  }
+  .contact-info p {
+    font-size: 0.8em;
   }
   .contact-wrapper {
     grid-template-columns: 1fr;
   }
-  form{
+  form {
     width: 250px;
   }
 }

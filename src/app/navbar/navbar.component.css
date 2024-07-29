@@ -1,66 +1,80 @@
 mat-toolbar {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(255, 129, 27);
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(255, 129, 27);
 }
 .company-name {
-    display: flex;
-    line-height: 1;
-    flex-direction: column;
-    align-items: end;
-    margin-right: auto;
+  display: flex;
+  line-height: 1;
+  flex-direction: column;
+  align-items: end;
+  margin-right: auto;
 }
 mat-icon {
-    color: white;
-    padding-top: 10px;
-    padding-right: 28px;
-    padding-bottom: 20px;
-    font-size: 40px;
+  color: white;
+  padding-top: 10px;
+  padding-right: 28px;
+  padding-bottom: 20px;
+  font-size: 40px;
 }
 
 .company-name h1 {
-    font-family: verdana;
-    color: white;
-    margin: 0;
-    font-size: 24px;
+  font-family: verdana;
+  color: white;
+  margin: 0;
+  font-size: 24px;
 }
 
 .company-name .tagline {
-    text-wrap: wrap;
-    justify-content: end;
-    font-size: 10px;
-    color: #e2e2e2;
+  text-wrap: wrap;
+  justify-content: end;
+  font-size: 10px;
+  color: #e2e2e2;
 }
 
 span {
-    color: white;
+  color: white;
 }
 
 .spacer {
-    text-align: end;
-    flex: 1 1 auto;
+  text-align: end;
+  flex: 1 1 auto;
 }
 
 .spacer a {
-    font-size: .8em;
-    color: white;
+  font-size: 0.8em;
+  color: white;
 }
 
-body, html {
-    margin: 0;
-    padding: 0;
+body,
+html {
+  margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 850px) {
-header{
+  header {
     background-color: rgb(255, 129, 27);
     padding-bottom: 50px;
-}  
+  }
 
-.spacer {
+  .spacer {
     font-size: 0.7em;
-} 
-.menu{
+  }
+  .spacer a {
+    padding: 5px 8px;
+  }
+  .menu {
     margin: auto;
-}
+  }
+  .company-name h1 {
+    font-size: 0.9em;
+  }
+  mat-icon {
+    color: white;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    font-size: 35px;
+  }
 }
